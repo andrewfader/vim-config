@@ -165,3 +165,9 @@
 [submodule "bundle/edit-plus"]
 	path = bundle/edit-plus
 	url = https://github.com/mgamba/edit-plus.git
+[submodule "bundle/vim-colorschemes"]
+  path = bundle/vim-colorschemes
+  url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/vim-solarized-powerline"]
+  path = bundle/vim-solarized-powerline
+  url = git@github.com:stephenmckinney/vim-solarized-powerline.git

@@ -1,4 +1,4 @@
-set guifont=Menlo:h21
+set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 14
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
@@ -57,9 +57,3 @@ set autowriteall                " Save when doing various buffer-switching thing
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
 let g:sql_type_default="postgresql"
-
-" Turn off ri tooltips that don't work with Ruby 1.9 yet
-" http://code.google.com/p/macvim/issues/detail?id=342
-if has("gui_running")
-  set noballooneval
-endif

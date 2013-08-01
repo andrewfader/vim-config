@@ -72,9 +72,14 @@ vmap <s-tab> <gv
 " Tab in insert mode should just indent
 autocmd VimEnter * iunmap <tab>
 
-" FuzzyFinder
-map <D-e>       :FufBuffer<CR>
-map <leader>rb  :FufBuffer<CR>
+" FuzzyFinder and switchback commands
+map <leader>e   :e#<CR>
+map <leader>b   :FufBuffer<CR>
+map <leader><C-N> :FufFile **/<CR>
+map <D-e> :FufBuffer<CR>
+map <leader>n :FufFile **/<CR>
+map <D-N> :FufFile **/<CR>
+map <leader>rf :FufRenewCache<CR>
 
 " Command-T
 map <D-N>       :CommandTFlush<CR>:CommandT<CR>
