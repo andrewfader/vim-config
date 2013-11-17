@@ -168,5 +168,5 @@
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "/home/andrew/.vim/bundle/vim-airline"]
-	path = /home/andrew/.vim/bundle/vim-airline
+	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
