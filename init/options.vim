@@ -1,4 +1,4 @@
-set guifont=Droid\ Sans\ Mono\ for\ Powerline:h16
+set guifont=Inconsolata\ for\ Powerline\ Medium\ 18
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars

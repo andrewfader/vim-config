@@ -17,9 +17,10 @@ set pastetoggle=<F2>
 " Make Y consistent with D and C
 map Y           y$
 
-" Search
-nmap <leader>s  :%s/
-vmap <leader>s  :s/
+map <Leader>s :call RunCurrentSpecFile()<CR>
+" map <Leader>s :call RunNearestSpec()<CR>
+" map <Leader>l :call RunLastSpec()<CR>
+" map <Leader>a :call RunAllSpecs()<CR>
 
 " Split screen
 map <leader>v   :vsp<CR>
