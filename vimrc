@@ -25,3 +25,6 @@ runtime! init/**.vim
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+set vb
+au FocusLost * silent! wa
+set autowriteall
